@@ -2,7 +2,7 @@
 
 Estudo independente de dados relacionais para cinco restaurantes fictícios. Implementação original com assistência de IA. Não é trabalho para cliente real nem reprodução literal do Zomato.
 
-**Estado:** implementado e executado localmente; preparado para revisão privada. Nenhum repositório foi criado/publicado. A audiência pública foi escolhida; nomes e conteúdo aguardam revisão. Não foi adicionada licença de reutilização ao código próprio. A fonte Inter mantém SIL OFL em `assets/`.
+**Estado:** implementado, executado localmente e publicado em repositório público após revisão de nomes e conteúdo em 11/11/2026. Não foi adicionada licença de reutilização ao código próprio. A fonte Inter mantém SIL OFL em `assets/`.
 
 ## O que faz
 
@@ -17,7 +17,7 @@ Estudo independente de dados relacionais para cinco restaurantes fictícios. Imp
 
 500 pedidos, receita de **R$ 44.592,00**. O JOIN errado somaria R$ 102.775,00, um excesso artificial de R$ 58.183,00. A receita correta foi conciliada com as linhas. São números sintéticos, sem resultado comercial real.
 
-20 testes de domínio/carga passam em Python 3.10.12 e 3.12.15. Teste de interface separado: carregamento, EN, 700 pedidos e filtro. Layout inspecionado em 320/390/1280 px. PostgreSQL verificado em Linux; não instalado/testado no Dell. GitHub Actions ainda não rodou.
+20 testes de domínio/carga passam em Python 3.10.12 e 3.12.15. Teste de interface separado: carregamento, EN, 700 pedidos e filtro. Layout inspecionado em 320/390/1280 px. PostgreSQL verificado em Linux; não instalado/testado no Dell. GitHub Actions concluído com sucesso em Python 3.10 e 3.12; execução identificada em `docs/CI.md`.
 
 ## Rodar
 
@@ -70,7 +70,7 @@ https://github.com/ShaikhBorhanUddin/Zomato-Data-Analysis . Nenhum código, CSV 
 
 Independent relational-data study for five fictional restaurants. Original implementation with AI assistance. This is not client work or a literal Zomato reproduction.
 
-**Status:** implemented and executed locally, ready for private review. No repository has been created or published. A public audience was selected; names and content await review. No reuse license is added for original code. The bundled Inter font retains SIL OFL in `assets/`.
+**Status:** implemented, executed locally and published in a public repository after name and content review on 11 November 2026. No reuse license is added for original code. The bundled Inter font retains SIL OFL in `assets/`.
 
 ## What it does
 
@@ -85,7 +85,7 @@ Independent relational-data study for five fictional restaurants. Original imple
 
 500 orders and **BRL 44,592.00** revenue. The incorrect JOIN would total BRL 102,775.00, an artificial BRL 58,183.00 excess. Correct revenue reconciles against line totals. All figures are synthetic, not real business outcomes.
 
-20 domain/import tests pass on Python 3.10.12 and 3.12.15. Separate UI test covers initial load, EN,700 orders and restaurant filtering. Layout inspected at 320/390/1280 px. PostgreSQL verified on Linux, not installed or tested on the owner's Dell. GitHub Actions has not run.
+20 domain/import tests pass on Python 3.10.12 and 3.12.15. Separate UI test covers initial load, EN,700 orders and restaurant filtering. Layout inspected at 320/390/1280 px. PostgreSQL verified on Linux, not installed or tested on the owner's Dell. GitHub Actions completed successfully on Python 3.10 and 3.12; see `docs/CI.md` for the exact run.
 
 ## Run
 

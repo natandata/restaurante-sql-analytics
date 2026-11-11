@@ -1,6 +1,6 @@
 # SQL para decisões de restaurante
 
-Documento de implementação e estudo, versão privada para revisão de 11/11/2026. Projeto 2 do guia. Código independente com assistência de IA; não é cópia do Zomato, trabalho para cliente real ou alegação de que Natan implementou tudo sozinho. As tabelas, nomes, preços e pedidos são fictícios.
+Documento de implementação e estudo, versão publicada de 11/11/2026. Projeto 2 do guia. Código independente com assistência de IA; não é cópia do Zomato, trabalho para cliente real ou alegação de que Natan implementou tudo sozinho. As tabelas, nomes, preços e pedidos são fictícios.
 
 ## 1. A decisão e a prova
 
@@ -131,7 +131,7 @@ No PowerShell, a ativação é `.venv\Scripts\Activate.ps1`; uma política restr
 
 Para a aplicação, instale `requirements-app.txt` e execute `python -m streamlit run app.py`. A configuração usa apenas localhost e desativa a telemetria de uso do Streamlit. Para o notebook, instale `requirements-notebook.txt` e use Jupyter de sua preferência. Para a integração opcional, instale `requirements-postgres.txt` e execute `python -m src.verify_postgres`; essa via foi testada em Linux, não no Dell.
 
-Os arquivos de CI descrevem como executar testes no GitHub quando houver publicação autorizada. Não houve execução de GitHub Actions ainda. Um arquivo de workflow não é evidência de check verde no GitHub.
+O workflow publicado executa os testes no GitHub. O resultado remoto verificado fica em `CI.md`; a presença do arquivo sozinha não é evidência de sucesso.
 
 ## 14. Como modificar sem perder a prova
 
@@ -145,6 +145,6 @@ Numa entrevista FDE, explique primeiro o invariante: o faturamento antes e depoi
 
 A referência temática é ShaikhBorhanUddin/Zomato-Data-Analysis: https://github.com/ShaikhBorhanUddin/Zomato-Data-Analysis . Não foi copiado código, CSV, senha ou tabela de usuários. A licença MIT da referência não foi usada como licença automática desta implementação. O código original não recebeu licença de reutilização nesta versão.
 
-Nome proposto: `restaurante-sql-analytics`. Antes de criar o repositório, revisar README, conteúdo, audiência e licença. Nada foi enviado ao GitHub. A conta conectada foi verificada como natandata; isso confirma a rota, não substitui a revisão prometida.
+Repositório público `natandata/restaurante-sql-analytics`, publicado após aprovação de nome e conteúdo em 11/11/2026. Não foi adicionada licença de reutilização ao código próprio.
 
 Fontes técnicas: Python sqlite3, https://docs.python.org/3/library/sqlite3.html ; PostgreSQL, https://www.postgresql.org/docs/16/ ; SQLite foreign keys, https://www.sqlite.org/foreignkeys.html . A implementação mede resultados próprios, sem copiar números da referência.

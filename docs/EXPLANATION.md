@@ -1,6 +1,6 @@
 # SQL for restaurant decisions
 
-Implementation and study document, private review version dated 11 November 2026. Project 2 of the guide. Independent code with AI assistance, not copied Zomato code, real client work or a claim that Natan implemented everything without assistance. All tables, names, prices and orders are fictional.
+Implementation and study document, published version dated 11 November 2026. Project 2 of the guide. Independent code with AI assistance, not copied Zomato code, real client work or a claim that Natan implemented everything without assistance. All tables, names, prices and orders are fictional.
 
 ## 1. Decision and evidence
 
@@ -127,7 +127,7 @@ python -m src.pipeline
 
 PowerShell activation uses `.venv\Scripts\Activate.ps1`. If execution policy blocks it, call `.venv\Scripts\python.exe` directly instead of changing global policy. Native Windows is not tested.
 
-Install `requirements-app.txt` for `python -m streamlit run app.py`; the app binds to localhost with usage statistics disabled. Install `requirements-notebook.txt` for notebook execution. Install `requirements-postgres.txt` for `python -m src.verify_postgres`, tested on Linux rather than the Dell. The workflow file describes future CI; GitHub Actions has not run, so no remote green check is claimed.
+Install `requirements-app.txt` for `python -m streamlit run app.py`; the app binds to localhost with usage statistics disabled. Install `requirements-notebook.txt` for notebook execution. Install `requirements-postgres.txt` for `python -m src.verify_postgres`, tested on Linux rather than the Dell. The published workflow runs these checks remotely. See `CI.md` for its verified result.
 
 ## 14. Modifying safely
 
@@ -141,6 +141,6 @@ For an FDE interview, explain the invariant first: revenue must reconcile before
 
 The thematic reference is https://github.com/ShaikhBorhanUddin/Zomato-Data-Analysis . No code, CSV, password or user table was copied. The reference MIT license was not automatically assigned to independent code. No original-code reuse license has been added.
 
-Proposed repository name: `restaurante-sql-analytics`. README, content, audience and license need review before creation. Nothing has been sent to GitHub. The connected handle was verified as natandata; route verification does not replace approval.
+Public repository `natandata/restaurante-sql-analytics`, published after name and content approval on 11 November 2026. No original-code reuse license has been added.
 
 Technical sources: https://docs.python.org/3/library/sqlite3.html ; https://www.postgresql.org/docs/16/ ; https://www.sqlite.org/foreignkeys.html . Metrics come from this implementation, not the reference.
