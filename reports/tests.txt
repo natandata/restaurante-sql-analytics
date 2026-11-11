@@ -1,0 +1,25 @@
+test_01_deterministic (test_sql.SQLTests) ... ok
+test_02_fk_clean (test_sql.SQLTests) ... ok
+test_03_reconciliation (test_sql.SQLTests) ... ok
+test_04_joins_preserve_revenue (test_sql.SQLTests) ... ok
+test_05_shares (test_sql.SQLTests) ... ok
+test_06_months (test_sql.SQLTests) ... ok
+test_07_foreign_key_enforced (test_sql.SQLTests) ... ok
+test_08_pk_conflict (test_sql.SQLTests) ... ok
+test_09_quantity_check (test_sql.SQLTests) ... ok
+test_10_composite_fk (test_sql.SQLTests) ... ok
+test_11_cost_margin (test_sql.SQLTests) ... ok
+test_12_wrong_join_is_wrong (test_sql.SQLTests) ... ok
+test_13_explicit_ranking (test_sql.SQLTests) ... ok
+test_14_csv_roundtrip (test_sql.SQLTests) ... ok
+test_15_duplicate_audited (test_sql.SQLTests) ... ok
+test_16_transaction_rollback (test_sql.SQLTests) ... ok
+test_17_noninteger_rejected (test_sql.SQLTests) ... ok
+test_18_empty_queries (test_sql.SQLTests) ... ok
+test_19_hand_calculated (test_sql.SQLTests) ... ok
+test_20_import_conflict_fails (test_sql.SQLTests) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.202s
+
+OK

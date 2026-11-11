@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "initial load",
+    "language EN",
+    "orders 700 recomputes",
+    "restaurant filter"
+  ],
+  "passed": true
+}

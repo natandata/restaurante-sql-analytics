@@ -1,0 +1,35 @@
+{
+  "postgres_version": "PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11), 64-bit",
+  "queries": [
+    {
+      "query": "02_reconcile.sql",
+      "rows": 500,
+      "matches_sqlite": true
+    },
+    {
+      "query": "03_restaurants.sql",
+      "rows": 5,
+      "matches_sqlite": true
+    },
+    {
+      "query": "04_monthly.sql",
+      "rows": 6,
+      "matches_sqlite": true
+    },
+    {
+      "query": "05_item_margin.sql",
+      "rows": 4,
+      "matches_sqlite": true
+    },
+    {
+      "query": "06_ticket.sql",
+      "rows": 5,
+      "matches_sqlite": true
+    }
+  ],
+  "constraints_rejected": [
+    "fk",
+    "pk",
+    "check"
+  ]
+}

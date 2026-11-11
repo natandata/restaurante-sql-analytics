@@ -1,0 +1,15 @@
+{
+  "environment": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.9",
+    "seed": 20261111
+  },
+  "orders": 500,
+  "revenue_cents": 4459200,
+  "reconciled": true,
+  "foreign_key_errors": [],
+  "naive_join_total_cents": 10277500,
+  "join_overcount_cents": 5818300
+}

@@ -1,0 +1,6 @@
+erDiagram
+restaurants ||--o{ menu : oferece
+products ||--o{ menu : integra
+restaurants ||--o{ orders : recebe
+orders ||--|{ order_lines : contem
+menu ||--o{ order_lines : precifica
